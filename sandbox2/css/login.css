@@ -1,0 +1,68 @@
+#branding {
+	text-align: center;
+}
+#branding img {
+	margin-left: 40px;
+	max-width: 150px;
+}
+#branding h1 {
+	margin-top: 0;
+	margin-bottom: 20px;
+	font-family: Nevis;
+	font-size: 70px;
+	color: #fcfff5;
+}
+
+#credentials {
+	width: 200px;
+	padding-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#credentials input {
+	width: 196px;
+	margin-bottom: 8px;
+	background-color: #fcfff5;
+	border: 1px solid #dedede;
+	border-radius: 3px;
+	font-size: 15px;
+	color: #777;
+}
+#credentials input:nth-child(1),
+#credentials input:nth-child(2) {
+	padding: 3px 0 3px 7px;
+}
+#credentials input:nth-child(3) {
+	width: 205px;
+	height: 30px;
+	border: 1px solid #037f67;
+	color: #ffffff;
+	background-color: #037F67; /*024f40*/
+	cursor: pointer;
+}
+
+
+@media(min-width: 1024px) {
+	#branding img {
+		margin-top: 80px;
+		margin-bottom: -20px;
+		margin-left: 0;
+		max-width: 250px;
+	}
+	#branding h1 {
+		margin-top: 0;
+		margin-bottom: 30px;
+		font-size: 120px;
+	}
+	#credentials {
+		width: 280px;
+		padding-top: 0;
+	}
+	#credentials input {
+		width: 276px;
+		font-size: 18px;
+	}
+	#credentials input:nth-child(3) {
+		width: 285px;
+	}
+}

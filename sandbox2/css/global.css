@@ -1,0 +1,62 @@
+@font-face {
+	font-family: Nevis;
+	src: "fonts/nevis.ttf";
+}
+
+
+html, body {
+	font-family: Helvetica, Arial;
+	background-color: #193441;
+}
+
+
+#header ul {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	height: 32px;
+	vertical-align: middle;
+	list-style-type: none;
+	text-align: center;
+	color: #91AA9D;
+}
+#header ul li {
+	display: inline-block;
+}
+#header ul li:nth-child(1) {
+	float: left;
+}
+#header ul li:nth-child(3) {
+	float: right;
+}
+#header ul li a:link { color: black;}
+#header ul li a:visited { color: black;}
+#header ul li a:hover {color: black;}
+#header ul li a:active {color: black;}
+#header ul li i {
+	color: #91AA9D;
+}
+#header ul li p {
+	margin-top: 8px;
+	margin-bottom: 0;
+}
+#header ul li a img {
+	max-width: 32px;
+}
+
+
+@media(min-width: 1024px) {
+	#header ul li:nth-child(1) {
+		margin-left: 25px;
+	}
+	#header ul li:nth-child(3) {
+		margin-right: 25px;
+	}
+	#header ul li p {
+		margin-top: 13px;
+		font-size: 30px;
+	}
+	#header ul li a img {
+		max-width: 60px;
+	}
+}
