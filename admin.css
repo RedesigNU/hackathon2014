@@ -1,0 +1,63 @@
+
+@font-face {
+	font-family: Nevis;
+	src: url("/hackathon2014/nevis.ttf");
+}
+
+.brandname {
+	font-family: Nevis;
+	font-size: 70px;
+	color: #fcfff5;
+}
+
+.container-fluid {
+	background-color: #193441;
+}
+
+.mainContent {
+	color: #fcfff5;
+}
+
+#customquestion {
+	position: absolute;
+	top: 85px;
+	left: 389px;
+
+}
+
+#messagelist {
+	clear: both;
+	position: absolute;
+	top: 165px;
+	left: 46px;
+}
+
+#message {
+	height: 30px;
+	width: 300px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	font-size: 20px;
+	font-style: "Georgia", "Helvetica", "Times New Roman"
+}
+
+#feedbackContent {
+	width: 350px;
+	border-width: 3px;
+}
+
+@media(min-width: 1024px) {
+	#credentials {
+		width: 280px;
+		padding-top: 300px;
+	}
+	#credentials input {
+		width: 276px;
+		font-size: 18px;
+	}
+	#credentials input:nth-child(3) {
+		width: 285px;
+	}
+}
